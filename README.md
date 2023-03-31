@@ -62,7 +62,7 @@ python test_Stanford_Cars.py
 ```
 ## Citation
 If you find this repository useful in your research, please cite the following [paper](https://arxiv.org/abs/2211.13940):
-
+```
     @misc{sun2022spatialtemporal,
           title={Spatial-Temporal Attention Network for Open-Set Fine-Grained Image Recognition}, 
           author={Jiayin Sun and Hong Wang and Qiulei Dong},
@@ -71,5 +71,5 @@ If you find this repository useful in your research, please cite the following [
           archivePrefix={arXiv},
           primaryClass={cs.CV}
     }
-
+```
 [1] Vaze S, Han K, Vedaldi A, et al. Open-set recognition: A good closed-set classifier is all you need[C]. ICLR, 2022.
