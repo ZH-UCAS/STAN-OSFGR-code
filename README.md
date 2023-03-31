@@ -61,7 +61,7 @@ To test the trained weights on the Stanford-Cars datasets, run:
 python test_Stanford_Cars.py
 ```
 ## Citation
-If you find this repository useful in your research, please cite the following paper:
+If you find this repository useful in your research, please cite the following [paper](https://arxiv.org/abs/2211.13940):
 
     @misc{sun2022spatialtemporal,
           title={Spatial-Temporal Attention Network for Open-Set Fine-Grained Image Recognition}, 
