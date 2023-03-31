@@ -5,6 +5,7 @@ import datetime
 import time
 import pandas as pd
 import importlib
+import errno
 
 import torch
 from torch.utils.data import DataLoader, Dataset
@@ -504,10 +505,10 @@ F = SwinTransformer(img_size=448, patch_size=4, in_chans=3, num_classes=1000,
 pretrained_dict = torch.load('swin_base_patch4_window7_224_22k.pth')['model']
 
 # net_pre = mytry5_20220516_v2(F, num_classes=len(args.train_classes))
-# net_dict = net.state_dict()
 # net = mytry5_20220519_v1(F, num_classes=len(args.train_classes))
 # net = mytry5_20220519_v2(F, num_classes=len(args.train_classes))
 net = STAN_OSFGR(F, num_classes=len(args.train_classes))
+net_dict = net.state_dict()
 
 # print(net_dict.keys())
 # print(pretrained_dict.keys())

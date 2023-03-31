@@ -9,7 +9,7 @@ The code is configured by PyTorch 1.7.1, torchvision 0.8.2, Python 3.7.7.
 Please download the original Stanford-Cars datasets from `https://ai.stanford.edu/~jkrause/cars/car_dataset.html`,  put the dataset in the "./dataset/stanford_cars" folder, and run the two steps in "process.py" in the subfolder "./dataset/stanford_cars/"  for processing the format.
 
 ### CUB
-Please download the dataset from `http://www.vision.caltech.edu/visipedia/CUB-200.html`
+Please download the dataset from `http://www.vision.caltech.edu/datasets/cub_200_2011/`
 
 ### Aircraft
 Please download the dataset from `https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/`
@@ -60,6 +60,16 @@ To test the trained weights on the Stanford-Cars datasets, run:
 ```Bash
 python test_Stanford_Cars.py
 ```
+## Citation
+If you find this repository useful in your research, please cite the following paper:
 
+    @misc{sun2022spatialtemporal,
+          title={Spatial-Temporal Attention Network for Open-Set Fine-Grained Image Recognition}, 
+          author={Jiayin Sun and Hong Wang and Qiulei Dong},
+          year={2022},
+          eprint={2211.13940},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+    }
 
 [1] Vaze S, Han K, Vedaldi A, et al. Open-set recognition: A good closed-set classifier is all you need[C]. ICLR, 2022.
